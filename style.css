@@ -11,38 +11,6 @@ body {
   height: 100vh;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: rgba(233, 247, 254, 0.2);
-}
-
-header img {
-  width: 80px;
-}
-
-nav ul {
-  display: flex;
-  gap: 20px;
-}
-
-nav li {
-  list-style: none;
-}
-
-nav a {
-  color: var(--color-dark-900);
-  font-size: 24px;
-  padding: 10px;
-  font-family: "VT323", cursive;
-}
-
-nav a:hover {
-  color: var(--color-purple-200);
-}
-
 main {
   text-align: center;
   margin-top: 50px;
@@ -78,24 +46,4 @@ main {
 .botao:hover {
   background: var(--color-pink-500);
   color: var(--color-white);
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: rgba(233, 247, 254, 0.2);
-}
-
-footer p {
-  color: var(--color-white);
-  font-family: "VT323", cursive;
-  font-size: 18px;
-}
-
-.iconeRedesSociais {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-top: 10px;
-  color: var(--color-purple-700);
 }
