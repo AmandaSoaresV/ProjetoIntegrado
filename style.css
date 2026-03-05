@@ -9,6 +9,73 @@ body {
   background: linear-gradient(135deg,var(--color-purple-500),var(--color-pink-500)
   );
   height: 100vh;
-  background-repeat: no-repeat;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(233, 247, 254, 0.2);
+}
+
+header img {
+  width: 80px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  color: var(--color-dark-900);
+  font-size: 24px;
+  padding: 10px;
+  font-family: "VT323", cursive;
+}
+
+nav a:hover {
+  color: var(--color-purple-200);
+}
+
+main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.paragrafo {
+  color: var(--color-white);
+  font-size: 40px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.subParagrafo {
+  color: var(--color-white);
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: "VT323", cursive;
+}
+
+.botao {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 14px;
+  background: var(--color-white);
+  border: 3px solid var(--color-pink-500);
+  color: var(--color-pink-300);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background: var(--color-pink-500);
+  color: var(--color-white);
+}
