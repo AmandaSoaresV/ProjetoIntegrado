@@ -3,47 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home</title>
+
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-    <link rel="stylesheet" href="variaveis.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
-</head>
-<body>
-<header>
-  <img src="/img/teste.png" alt="Logo" width="80">
+  <body class="body">
+    <header class="header">
+      <img class="header-logo" src="/img/teste.png" alt="Logo" width="80" />
 
-  <nav>
-     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="perguntas.html">Perguntas</a></li>
-        <li><a href="avaliacoes.html">Avaliações</a></li>
-        <li><a href="contato.html">Contato</a></li>
-  </nav>
-</header>
+      <nav class="header-nav">
+        <ul class="header-menu">
+          <li class="header-item">
+            <a class="header-link" href="index.html">Home</a>
+          </li>
 
-<main>
-  <p class="paragrafo">Nome do jogo</p>
-  <p class="subParagrafo">A aventura começa agora!</p>
-  <button class="botao">Jogar Agora</button>
-</main>
+          <li class="header-item">
+            <a class="header-link" href="sobre.html">Sobre</a>
+          </li>
 
-<footer>
-  <p>Nome do jogo</p>
-  <p>Nossas Redes Sociais</p>
-  <div class="iconeRedesSociais">
-    <i class="ph ph-instagram-logo"></i>
-    <i class="ph ph-youtube-logo"></i>
-    <i class="ph ph-facebook-logo"></i>
-  </div>
-</footer>
-</body>
+          <li class="header-item">
+            <a class="header-link" href="perguntas.html">Perguntas</a>
+          </li>
+
+          <li class="header-item">
+            <a class="header-link" href="avaliacoes.html">Avaliações</a>
+          </li>
+
+          <li class="header-item">
+            <a class="header-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <p class="titulo-jogo">Nome do jogo</p>
+      <p class="subtitulo-jogo">A aventura começa agora!</p>
+      <button class="botao">Jogar Agora</button>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-texto">Nome do jogo</p>
+      <p class="footer-texto">Nossas Redes Sociais</p>
+
+      <div class="footer-redes">
+        <i class="ph ph-instagram-logo"></i>
+        <i class="ph ph-youtube-logo"></i>
+        <i class="ph ph-facebook-logo"></i>
+      </div>
+    </footer>
+  </body>
 </html>

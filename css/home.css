@@ -1,28 +1,24 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
-body {
-  background: linear-gradient(135deg,var(--color-purple-500),var(--color-pink-500)
+.body {
+  background: linear-gradient(
+    135deg,
+    var(--color-purple-500),
+    var(--color-pink-500)
   );
   height: 100vh;
 }
 
-main {
+.main {
   text-align: center;
   margin-top: 50px;
 }
 
-.paragrafo {
+.titulo-jogo {
   color: var(--color-white);
   font-size: 40px;
   font-family: "Press Start 2P", cursive;
 }
 
-.subParagrafo {
+.subtitulo-jogo {
   color: var(--color-white);
   font-size: 30px;
   margin-top: 20px;

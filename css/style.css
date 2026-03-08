@@ -1,0 +1,7 @@
+@import "./global/reset.css";
+@import "./global/variaveis.css";
+
+@import "./header.css";
+@import "./footer.css";
+@import "./home.css";
+@import "./sobre.css";
