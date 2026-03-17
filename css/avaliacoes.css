@@ -1,0 +1,54 @@
+.bodyAvaliacoes {
+  background: linear-gradient(
+    135deg,
+    var(--color-purple-300),
+    var(--color-purple-200)
+  );
+  height: 100vh;
+}
+
+.titulo-Avaliacoes {
+  font-family: "Press Start 2P", cursive;
+  font-size: 40px;
+  color: var(--color-pink-300);
+  text-align: center;
+  margin-top: 32px;
+}
+
+.grid-Avaliacoes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.colunas-Avaliacoes {
+  background-color: var(--color-white);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 8px;
+  text-align: center;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nome-Avaliador{
+  font-size: 14px;
+  color: var(--color-dark-900);
+  margin-bottom: 10px;
+  font-family: "Press Start 2P", cursive;
+  text-align: left;
+}
+
+.nota-Avaliacao{
+  color: var(--color-pink-300);
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.comentario-Avaliacao{
+  font-family: "VT323", monospace;
+  font-size: 16px;
+  text-align: left;
+  color: var(--color-dark-700)
+}
