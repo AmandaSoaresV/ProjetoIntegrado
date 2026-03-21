@@ -17,7 +17,7 @@
 
 .grid-Avaliacoes {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 10px;
   margin-top: 20px;
   padding: 10px;
@@ -32,7 +32,7 @@
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
-.nome-Avaliador{
+.nome-Avaliador {
   font-size: 14px;
   color: var(--color-dark-900);
   margin-bottom: 10px;
@@ -40,15 +40,15 @@
   text-align: left;
 }
 
-.nota-Avaliacao{
+.nota-Avaliacao {
   color: var(--color-pink-300);
   text-align: left;
   margin-bottom: 10px;
 }
 
-.comentario-Avaliacao{
+.comentario-Avaliacao {
   font-family: "VT323", monospace;
   font-size: 16px;
   text-align: left;
-  color: var(--color-dark-700)
+  color: var(--color-dark-700);
 }

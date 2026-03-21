@@ -8,8 +8,10 @@
 }
 
 .main {
+  display: grid;
+  align-content: center;
   text-align: center;
-  margin-top: 50px;
+  height: calc(100% - (120px + 60px + 40px));
 }
 
 .titulo-jogo {
