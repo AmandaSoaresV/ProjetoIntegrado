@@ -11,7 +11,7 @@
   display: grid;
   align-content: center;
   text-align: center;
-  height: calc(100% - (120px + 60px + 40px));
+  height: calc(100% - (104px + 60px + 40px));
 }
 
 .titulo-jogo {

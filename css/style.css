@@ -1,10 +1,11 @@
 @import "./global/reset.css";
 @import "./global/variaveis.css";
+@import "./global/utils.css";
 
 @import "./header.css";
 @import "./footer.css";
 @import "./home.css";
 @import "./sobre.css";
 @import "./avaliacoes.css";
-@import "./contato.css"; 
+@import "./contato.css";
 @import "./perguntas.css";
