@@ -9,9 +9,9 @@
 }
 
 .footer-texto {
-  color: var(--color-white);
+  color: var(--color-dark-900);
   font-family: "VT323", cursive;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .footer-redes {
@@ -19,5 +19,13 @@
   justify-content: center;
   gap: 16px;
   margin-top: 10px;
-  color: var(--color-purple-700);
+  color: var(--color-dark-900);
+}
+
+.footer-redes i {
+  font-size: 20px;
+}
+
+.footer-redes i:hover {
+  color: var(--color-dark-500);
 }
