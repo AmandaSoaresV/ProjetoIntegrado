@@ -1,4 +1,4 @@
-.bodyAvaliacoes {
+.body-avaliacoes {
   background: linear-gradient(
     135deg,
     var(--color-purple-300),
@@ -7,7 +7,7 @@
   height: 100vh;
 }
 
-.titulo-Avaliacoes {
+.titulo-avaliacoes {
   font-family: "Press Start 2P", cursive;
   font-size: 40px;
   color: var(--color-pink-300);
@@ -15,7 +15,7 @@
   margin-top: 32px;
 }
 
-.grid-Avaliacoes {
+.grid-avaliacoes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 10px;
@@ -23,7 +23,7 @@
   padding: 10px;
 }
 
-.colunas-Avaliacoes {
+.colunas-avaliacoes {
   background-color: var(--color-white);
   border-radius: 16px;
   padding: 20px;
@@ -32,7 +32,7 @@
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
-.nome-Avaliador {
+.nome-avaliador {
   font-size: 14px;
   color: var(--color-dark-900);
   margin-bottom: 10px;
@@ -40,13 +40,13 @@
   text-align: left;
 }
 
-.nota-Avaliacao {
+.nota-avaliacao {
   color: var(--color-pink-300);
   text-align: left;
   margin-bottom: 10px;
 }
 
-.comentario-Avaliacao {
+.comentario-avaliacao {
   font-family: "VT323", monospace;
   font-size: 16px;
   text-align: left;
