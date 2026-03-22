@@ -63,6 +63,12 @@
   background-color: var(--color-dark-100);
 }
 
+.input-formulario:focus {
+  outline: none;
+  background-color: var(--color-pink-100);
+  box-shadow: 0px 0px 4px var(--color-purple-300);
+}
+
 .textarea-formulario {
   height: 120px;
   resize: none;
