@@ -1,8 +1,8 @@
 .body-sobre {
   background: linear-gradient(
     135deg,
-    var(--color-purple-200),
-    var(--color-pink-200)
+    var(--color-pink-300),
+    var(--color-purple-400)
   );
   height: 100vh;
 }
@@ -10,7 +10,7 @@
 .titulo-sobre {
   font-family: "Press Start 2P", cursive;
   font-size: 40px;
-  color: var(--color-pink-300);
+  color: var(--color-pink-500);
   text-align: center;
   margin-top: 32px;
 }
