@@ -1,31 +1,30 @@
 :root {
-  --color-dark-900: #1B1B2D;
-  --color-dark-800: #2C2C3F;
-  --color-dark-700: #3E3E55;
-  --color-dark-600: #57576F;
-  --color-dark-500: #75758E;
-  --color-dark-400: #9A9AB0;
-  --color-dark-300: #C6C6D8;
-  --color-dark-200: #E4E4F0;
-  --color-dark-100: #F5F5FB;
+  --color-dark-900: #191927;
+  --color-dark-800: #252538;
+  --color-dark-700: #32324A;
+  --color-dark-600: #4A4A66;
+  --color-dark-500: #6A6A8A;
+  --color-dark-400: #8F8FB0;
+  --color-dark-300: #B9B9D4;
+  --color-dark-200: #E2E2F2;
+  --color-dark-100: #F6F6FD;
 
   --color-white: #FFFFFF;
 
   --color-pink-500: #D96CCD;
-  --color-pink-400: #E96DD4;
-  --color-pink-300: #F991E0;
-  --color-pink-200: #F7AEE8;
-  --color-pink-100: #FDE6FA;
+  --color-pink-400: #E07BD6;
+  --color-pink-300: #EFA1E2;
+  --color-pink-200: #F6C5ED;
+  --color-pink-100: #FDEBFA;
 
-  --color-purple-700: #5E4DB2;
-  --color-purple-500: #9F88E8;
-  --color-purple-400: #AD98F0;
-  --color-purple-300: #BDA8F7;
-  --color-purple-200: #D7CCFB;
-  --color-purple-100: #E3DCF9;
+  --color-purple-700: #6A5ACD;
+  --color-purple-500: #8F7AE6;
+  --color-purple-400: #A08EF0;
+  --color-purple-300: #B7A7F6;
+  --color-purple-200: #D6CCFB;
+  --color-purple-100: #ECE8FF;
 
-  --color-blue-300: #E9F7FE;
-  --color-blue-200: #E1EFF6;
-  --color-blue-100: #F0F8FC;
-
+  --color-blue-300: #E6F0FF;
+  --color-blue-200: #EEF4FF;
+  --color-blue-100: #F5F8FF;
 }
