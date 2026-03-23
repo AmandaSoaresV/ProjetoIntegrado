@@ -7,6 +7,10 @@
   height: 104px;
 }
 
+.logo-clicavel {
+  cursor: pointer;
+}
+
 .header-logo {
   width: 150px;
 }
