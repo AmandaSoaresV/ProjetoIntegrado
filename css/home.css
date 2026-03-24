@@ -7,6 +7,17 @@
   height: 100vh;
 }
 
+.menu-hamburguer {
+  color: var(--color-dark-900);
+  font-size: 32px;
+  cursor: pointer;
+  display: none;
+}
+
+.header-nav {
+  display: block;
+}
+
 .main {
   display: grid;
   align-content: center;
@@ -44,4 +55,32 @@
 .botao:hover {
   background: var(--color-pink-500);
   color: var(--color-white);
+}
+
+@media (max-width: 768px) {
+  .menu-hamburguer {
+    display: block;
+  }
+  .logo-clicavel {
+    display: none;
+  }
+
+  .header-nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: var(--color-blue-100);
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-nav.ativo {
+    display: block;
+  }
+
+  .header-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
