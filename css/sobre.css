@@ -37,3 +37,19 @@
   width: 400px;
   height: 300px;
 }
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .colunas {
+    font-size: 20px;
+  }
+  .colunas img {
+    width: 100%;
+    height: auto;
+  }
+  .titulo-sobre {
+    font-size: 24px;
+  }
+}
