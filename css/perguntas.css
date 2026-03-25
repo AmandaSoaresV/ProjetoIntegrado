@@ -42,3 +42,14 @@
   text-align: left;
   margin-bottom: 32px;
 }
+
+@media (max-width: 768px) {
+  .pergunta,
+  .resposta {
+    width: 90%;
+    font-size: 20px;
+  }
+  .titulo-perguntas {
+    font-size: 24px;
+  }
+}
