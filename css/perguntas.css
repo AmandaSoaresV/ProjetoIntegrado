@@ -4,6 +4,7 @@
     var(--color-pink-300),
     var(--color-purple-400)
   );
+  min-height: 100vh;
 }
 
 .titulo-perguntas {
