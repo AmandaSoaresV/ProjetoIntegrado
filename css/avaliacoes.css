@@ -17,7 +17,7 @@
 
 .grid-avaliacoes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   margin-top: 20px;
   padding: 10px;
@@ -51,4 +51,29 @@
   font-size: 20px;
   text-align: left;
   color: var(--color-dark-700);
+}
+
+@media (max-width: 768px) {
+  .titulo-avaliacoes {
+    font-size: 24px;
+  }
+
+  .grid-avaliacoes {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .colunas-avaliacoes {
+    margin: 0;
+    padding: 16px;
+  }
+
+  .nome-avaliador {
+    font-size: 12px;
+  }
+
+  .comentario-avaliacao {
+    font-size: 18px;
+  }
 }
