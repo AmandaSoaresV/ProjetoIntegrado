@@ -36,8 +36,7 @@
 }
 
 .colunas-home {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   justify-content: center;
   padding: 20px;
 }
