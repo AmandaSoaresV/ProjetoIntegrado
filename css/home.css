@@ -123,3 +123,59 @@
   height: 480px;
   border-radius: 12px;
 }
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  .menu-hamburguer {
+    display: block;
+  }
+  .header-nav {
+    display: none;
+    position: static;
+    top: 70px;
+    right: 0;
+    background-color: var(--color-blue-100);
+    width: 100%;
+    text-align: center;
+  }
+  .header-nav.ativo {
+    display: block;
+  }
+   .header-menu {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .logo-clicavel {
+    display: none;
+  }
+
+  .titulo-home {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .paragrafo {
+    font-size: 18px;
+  }
+  .pergunta-motivo {
+    font-size: 20px;
+  }
+  .container-motivos {
+    grid-template-columns: 1fr;
+  }
+  .motivos-home {
+    padding: 16px;
+    text-align: center;
+  }
+  .btn-aventura {
+    font-size: 18px;
+    padding: 10px 16px;
+  }
+  .persona {
+    width: 100%;
+    height: auto;
+  }
+}
