@@ -145,3 +145,80 @@ html {
   padding: 12px;
   margin: 0 14px;
 }
+
+@media (max-width: 768px) {
+  .titulo-sobre {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .grid-sobre {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 16px;
+  }
+
+  .colunas {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+  }
+
+  .colunas img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .titulo-jogo {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .btn-historia,
+  .btn-personagem {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+  .historia-jogo {
+    height: auto;
+    margin-top: 40px;
+    padding: 16px;
+  }
+
+  .titulo-historia {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .paragrafo-historia {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .personagem-jogo {
+    height: auto;
+    padding: 16px;
+  }
+
+  .titulo-personagem {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .grid-personagem {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .candyNanda {
+    width: 100%;
+    height: auto;
+  }
+
+  .paragrafo-personagem {
+    font-size: 16px;
+    text-align: justify;
+  }
+}
