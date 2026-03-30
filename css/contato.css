@@ -17,8 +17,8 @@
 
 .container-contato {
   display: grid;
-  grid-template-columns: 360px 1fr;
-  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   background-color: white;
   height: 540px;
   padding: 40px 64px 40px 12px;
@@ -29,11 +29,6 @@
 .personagem {
   align-self: center;
   width: 400px;
-}
-
-.bodyContato .footer {
-  position: absolute;
-  bottom: -100px;
 }
 
 .formulario {
@@ -91,4 +86,37 @@
 
 .botao-formulario:hover {
   background-color: var(--color-pink-300);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 24px auto;
+  }
+
+  .titulo-contato {
+    font-size: 18px;
+    margin: 16px 0;
+  }
+
+  .container-contato {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 20px;
+  }
+
+  .personagem {
+    width: 100%;
+    max-width: 280px;
+    justify-self: center;
+  }
+
+  .label-formulario {
+    font-size: 24px;
+  }
+
+  .botao-formulario {
+    width: 100%;
+    margin-left: 0;
+  }
 }
