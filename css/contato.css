@@ -10,7 +10,7 @@
 .titulo-contato {
   font-family: "Press Start 2P", cursive;
   font-size: 40px;
-  color: var(--color-pink-500);
+  color: var(--color-dark-100);
   text-align: center;
   margin: 32px;
 }
