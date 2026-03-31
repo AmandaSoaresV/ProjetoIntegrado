@@ -7,17 +7,6 @@
   min-height: 100vh;
 }
 
-.menu-hamburguer {
-  color: var(--color-purple-500);
-  font-size: 32px;
-  cursor: pointer;
-  display: none;
-}
-
-.header-nav {
-  display: block;
-}
-
 .titulo-home {
   color: var(--color-dark-100);
   font-size: 40px;
@@ -128,29 +117,6 @@
   .grid {
     grid-template-columns: 1fr;
     width: 90%;
-  }
-  .menu-hamburguer {
-    display: block;
-  }
-  .header-nav {
-    display: none;
-    position: static;
-    top: 70px;
-    right: 0;
-    background-color: var(--color-blue-100);
-    width: 100%;
-    text-align: center;
-  }
-  .header-nav.ativo {
-    display: block;
-  }
-   .header-menu {
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .logo-clicavel {
-    display: none;
   }
 
   .titulo-home {
