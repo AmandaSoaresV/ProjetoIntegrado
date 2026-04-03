@@ -1,0 +1,16 @@
+.body-jogar {
+  background: linear-gradient(
+    135deg,
+    var(--color-pink-300),
+    var(--color-purple-400)
+  );
+  min-height: 100vh;
+}
+
+.titulo-jogar {
+  color: var(--color-dark-100);
+  font-size: 40px;
+  font-family: "Press Start 2P", cursive;
+  margin-top: 40px;
+  text-align: center;
+}
