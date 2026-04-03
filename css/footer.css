@@ -1,17 +1,17 @@
 .footer {
   text-align: center;
-  padding: 20px;
+  padding: 20px 16px;
   background-color: rgba(233, 247, 254, 0.2);
-  position: fixed;
   width: 100%;
-  bottom: 0px;
-  height: 100px;
+  margin-top: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .footer-texto {
   color: var(--color-dark-900);
   font-family: "VT323", cursive;
   font-size: 20px;
+  margin-bottom: 4px;
 }
 
 .footer-redes {

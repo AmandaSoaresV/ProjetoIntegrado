@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .body-sobre {
   background: linear-gradient(
     135deg,
@@ -10,46 +14,211 @@
 .titulo-sobre {
   font-family: "Press Start 2P", cursive;
   font-size: 40px;
-  color: var(--color-pink-500);
+  color: var(--color-dark-100);
   text-align: center;
   margin-top: 32px;
 }
 
-.grid {
+.grid-sobre {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  gap: 40px; 
   margin: 40px auto;
 }
 
 .colunas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-  font-family: "VT323", cursive;
-  font-size: 18px;
-  color: var(--color-dark-900);
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 16px;
   padding: 20px;
+  background-color: var(--color-blue-100);
+  width: 570px;
+  height: 340px;
+  border-radius: 18px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
 }
+
 .colunas img {
-  width: 400px;
+  padding: 20px;
+  width: 500px;
+  height: 200px;
+}
+
+.titulo-jogo {
+  font-family: "VT323", cursive;
+  font-size: 32px;
+  color: var(--color-dark-600);
+}
+
+.btn-historia {
+  background-color: var(--color-pink-500);
+  color: var(--color-white);
+  font-family: "VT323", cursive;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.btn-historia:hover {
+  background-color: var(--color-pink-400);
+}
+
+.titulo-jogo {
+  font-family: "VT323", cursive;
+  font-size: 32px;
+  color: var(--color-dark-600);
+}
+
+.btn-personagem {
+  background-color: var(--color-pink-500);
+  color: var(--color-white);
+  font-family: "VT323", cursive;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.btn-personagem:hover {
+  background-color: var(--color-pink-400);
+}
+
+.historia-jogo {
+  background-color: var(--color-purple-100);
+  width: 100%;
+  height: 500px;
+  margin-top: 80px;
+}
+
+.titulo-historia {
+  font-family: "Press Start 2P", cursive;
+  font-size: 32px;
+  color: var(--color-pink-500);
+  text-align: left;
+  padding: 24px;
+}
+
+.paragrafo-historia {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: var(--color-dark-700);
+  text-align: justify;
+  padding: 12px;
+  margin: 0 14px;
+}
+
+.personagem-jogo {
+  background-color: var(--color-purple-200);
+  width: 100%;
+  height: 500px;
+}
+
+.titulo-personagem {
+  font-family: "Press Start 2P", cursive;
+  font-size: 32px;
+  color: var(--color-pink-500);
+  text-align: left;
+  padding: 24px;
+}
+
+.grid-personagem {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  justify-content: center;
+}
+
+.candyNanda{
+  width: 300px;
   height: 300px;
 }
 
+.paragrafo-personagem {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: var(--color-dark-700);
+  text-align: justify;
+  padding: 12px;
+  margin: 0 14px;
+}
+
 @media (max-width: 768px) {
-  .grid {
+  .titulo-sobre {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .grid-sobre {
     grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 16px;
   }
+
   .colunas {
-    font-size: 20px;
+    width: 100%;
+    height: auto;
+    padding: 16px;
   }
+
   .colunas img {
     width: 100%;
     height: auto;
+    padding: 0;
   }
-  .titulo-sobre {
+
+  .titulo-jogo {
     font-size: 24px;
+    text-align: center;
+  }
+
+  .btn-historia,
+  .btn-personagem {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+  .historia-jogo {
+    height: auto;
+    margin-top: 40px;
+    padding: 16px;
+  }
+
+  .titulo-historia {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .paragrafo-historia {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .personagem-jogo {
+    height: auto;
+    padding: 16px;
+  }
+
+  .titulo-personagem {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .grid-personagem {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .candyNanda {
+    width: 100%;
+    height: auto;
+  }
+
+  .paragrafo-personagem {
+    font-size: 16px;
+    text-align: justify;
   }
 }

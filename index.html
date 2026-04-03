@@ -8,11 +8,15 @@
 
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -50,15 +54,44 @@
     </header>
 
     <main class="main">
-      <div>
-        <p class="titulo-jogo">Nome do jogo</p>
-        <p class="subtitulo-jogo">A aventura começa agora!</p>
-        <button class="botao">Jogar Agora</button>
+      <p class="titulo-home">REPRESENTATIVIDADE QUE TRANSFORMA</p>
+      <div class="grid">
+        <div class="colunas-home">
+          <p class="paragrafo">Nos jogos....</p>
+          <p class="paragrafo">
+            ↗ Meninos são sempre os heróis (protagonistas)
+          </p>
+          <p class="paragrafo">✕ Meninas quase não aparecem</p>
+          <p class="pergunta-motivo">Por quê isso importa?</p>
+
+          <div class="container-motivos">
+            <div class="motivos-home">
+              <p>Meninas também jogam!</p>
+            </div>
+
+            <div class="motivos-home">
+              <p>Meninas também sonham!</p>
+            </div>
+
+            <div class="motivos-home">
+              <p>Meninas são protagonistas!</p>
+            </div>
+          </div>
+
+          <p class="propaganda">
+            A <strong>Candy Factory Adventure</strong> nasceu para transformar
+            essa realidade, um jogo onde meninas são protagonistas.
+          </p>
+          <a class="btn-aventura" href="sobre.html">DESCUBRA ESSA AVENTURA</a>
+        </div>
+        <div class="colunas-home">
+          <img class="persona" src="img/persona.png" alt="Persona do jogo" />
+        </div>
       </div>
     </main>
 
     <footer class="footer">
-      <p class="footer-texto">Nome do jogo</p>
+      <p class="footer-texto">Candy Factory Adventure</p>
       <p class="footer-texto">Nossas Redes Sociais</p>
 
       <div class="footer-redes">
@@ -68,5 +101,5 @@
       </div>
     </footer>
   </body>
-  <script src="js/script.js"></script>
+  <script type="module" src="js/main.js"></script>
 </html>
