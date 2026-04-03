@@ -25,65 +25,50 @@ html {
   justify-content: center;
   gap: 40px; 
   margin: 40px auto;
+  align-items: stretch;
 }
 
 .colunas {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
+  width: 570px;
+  min-height: 340px;
   padding: 20px;
   background-color: var(--color-blue-100);
-  width: 570px;
-  height: 340px;
   border-radius: 18px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 .colunas img {
-  padding: 20px;
-  width: 500px;
+  width: 100%;
   height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 .titulo-jogo {
   font-family: "VT323", cursive;
   font-size: 32px;
   color: var(--color-dark-600);
+  text-align: center;
 }
 
-.btn-historia {
-  background-color: var(--color-pink-500);
-  color: var(--color-white);
-  font-family: "VT323", cursive;
-  font-size: 20px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 24px;
-  cursor: pointer;
-}
-
-.btn-historia:hover {
-  background-color: var(--color-pink-400);
-}
-
-.titulo-jogo {
-  font-family: "VT323", cursive;
-  font-size: 32px;
-  color: var(--color-dark-600);
-}
-
+.btn-historia,
 .btn-personagem {
   background-color: var(--color-pink-500);
   color: var(--color-white);
   font-family: "VT323", cursive;
   font-size: 20px;
   padding: 10px 20px;
+  margin-top: 10px;
   border: none;
-  border-radius: 24px;
+  border-radius: 32px;
   cursor: pointer;
+  align-self: center;
 }
 
+.btn-historia:hover,
 .btn-personagem:hover {
   background-color: var(--color-pink-400);
 }
@@ -91,59 +76,132 @@ html {
 .historia-jogo {
   background-color: var(--color-purple-100);
   width: 100%;
-  height: 500px;
-  margin-top: 80px;
+  padding-bottom: 40px;
 }
 
 .titulo-historia {
   font-family: "Press Start 2P", cursive;
   font-size: 32px;
   color: var(--color-pink-500);
-  text-align: left;
+  text-align: center;
   padding: 24px;
 }
 
+.grid-historia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  align-items: center;
+  padding: 0 40px;
+}
+
 .paragrafo-historia {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-family: "VT323", cursive;
+  font-size: 28px;
   color: var(--color-dark-700);
   text-align: justify;
-  padding: 12px;
-  margin: 0 14px;
+  line-height: 1.8;
+  margin: 0 auto;
+}
+
+.destaque {
+  color: var(--color-pink-500);
+  font-weight: bold;
+  padding: 0 6px;
+}
+
+.carrosel-img {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  animation: slide 15s infinite ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex: 0 0 100%;
+}
+
+@keyframes slide {
+  0%,
+  25% {
+    transform: translateX(0);
+  }
+  30%,
+  55% {
+    transform: translateX(-100%);
+  }
+  60%,
+  85% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.carrosel-img::after {
+  content: "⟷";
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 12px;
 }
 
 .personagem-jogo {
   background-color: var(--color-purple-200);
   width: 100%;
-  height: 500px;
+  padding-bottom: 40px;
 }
 
 .titulo-personagem {
   font-family: "Press Start 2P", cursive;
   font-size: 32px;
   color: var(--color-pink-500);
-  text-align: left;
+  text-align: center;
   padding: 24px;
 }
 
 .grid-personagem {
-  grid-template-columns: repeat(2, 1fr);
   display: grid;
-  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 40px;
+  padding: 0 40px;
 }
 
 .candyNanda{
   width: 300px;
   height: 300px;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 .paragrafo-personagem {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-family: "VT323", cursive;
+  font-size: 28px;
   color: var(--color-dark-700);
   text-align: justify;
-  padding: 12px;
-  margin: 0 14px;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -155,24 +213,25 @@ html {
   .grid-sobre {
     grid-template-columns: 1fr;
     gap: 20px;
-    padding: 0 16px;
+    padding: 0 20px;
   }
 
   .colunas {
     width: 100%;
-    height: auto;
-    padding: 16px;
   }
 
-  .colunas img {
-    width: 100%;
-    height: auto;
-    padding: 0;
+  .grid-historia {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .carrosel-img {
+    height: 300px;
   }
 
   .titulo-jogo {
     font-size: 24px;
-    text-align: center;
   }
 
   .btn-historia,
@@ -181,35 +240,25 @@ html {
     padding: 8px 16px;
   }
 
-  .historia-jogo {
-    height: auto;
-    margin-top: 40px;
-    padding: 16px;
-  }
-
   .titulo-historia {
     font-size: 20px;
-    text-align: center;
   }
 
   .paragrafo-historia {
-    font-size: 16px;
-    text-align: justify;
+    font-size: 20px;
   }
 
   .personagem-jogo {
-    height: auto;
     padding: 16px;
   }
 
   .titulo-personagem {
     font-size: 20px;
-    text-align: center;
   }
 
   .grid-personagem {
     grid-template-columns: 1fr;
-    gap: 20px;
+    padding: 0 20px;
   }
 
   .candyNanda {
@@ -218,7 +267,7 @@ html {
   }
 
   .paragrafo-personagem {
-    font-size: 16px;
-    text-align: justify;
+    font-size: 20px;
   }
+
 }

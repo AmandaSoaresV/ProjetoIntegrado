@@ -25,7 +25,7 @@
   <body class="body-sobre">
     <header class="header">
       <a href="index.html" class="logo-clicavel">
-        <img class="header-logo" src="/img/logo.png" alt="Logo" />
+        <img class="header-logo" src="img/logo.png" alt="Logo" />
       </a>
       <i class="ph ph-list menu-hamburguer" onclick="clickMenu()"></i>
       <nav class="header-nav">
@@ -69,16 +69,25 @@
       </div>
       <div class="historia-jogo" id="historia">
         <p class="titulo-historia">A HISTÓRIA DO JOGO</p>
-        <p class="paragrafo-historia">
-          A Candy Factory sempre foi um lugar mágico, famosa por seus doces
-          coloridos e irresistíveis. Mas, após uma falha misteriosa, tudo saiu
-          do controle: as máquinas começaram a produzir doces defeituosos que
-          ganharam vida e transformaram a fábrica em um verdadeiro caos. É então
-          que surge Candy Nanda, uma garotinha curiosa e corajosa, apaixonada
-          por doces. Determinada a salvar a fábrica, ela embarca em uma aventura
-          para descobrir o que aconteceu e restaurar a magia antes que seja
-          tarde demais.
-        </p>
+        <div class="grid-historia">
+          <p class="paragrafo-historia">
+            <span class="destaque">A Candy Factory</span>sempre foi um lugar
+            mágico, famosa por seus doces coloridos e irresistíveis. Mas, após
+            uma falha misteriosa, tudo saiu do controle: as máquinas começaram a
+            produzir doces defeituosos que ganharam vida e transformaram a
+            fábrica em um verdadeiro caos. É então que surge Candy Nanda, uma
+            garotinha curiosa e corajosa, apaixonada por doces. Determinada a
+            salvar a fábrica, ela embarca em uma aventura para descobrir o que
+            aconteceu e restaurar a magia antes que seja tarde demais.
+          </p>
+          <div class="carrosel-img">
+            <div class="slides">
+              <img src="img/imgJogo.avif" alt="imagem 1" />
+              <img src="img/imgPersonagem.jpg" alt="imagem 2" />
+              <img src="img/modelo.avif" alt="imagem 3" />
+            </div>
+          </div>
+        </div>
       </div>
       <div class="personagem-jogo" id="personagem">
         <p class="titulo-personagem">CONHEÇA CANDY NANDA</p>
@@ -90,7 +99,7 @@
             curiosidade sem limites, ela encara cada erro na fábrica de doces
             não como um problema, mas como um enigma esperando para ser
             resolvido. Ela é o exemplo perfeito de que ser inteligente e gostar
-            de games é um verdadeiro superpoder que transforma o mundo ao seu
+            de games é um verdadeiro super poder que transforma o mundo ao seu
             redor.
           </p>
         </div>
@@ -107,6 +116,6 @@
         <i class="ph ph-facebook-logo"></i>
       </div>
     </footer>
+    <script type="module" src="js/main.js"></script>
   </body>
-  <script type="module" src="js/main.js"></script>
 </html>
