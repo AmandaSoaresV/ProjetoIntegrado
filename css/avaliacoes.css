@@ -18,7 +18,7 @@
 .grid-avaliacoes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 5px;
   margin-top: 20px;
   padding: 10px;
 }
@@ -30,6 +30,13 @@
   margin: 8px;
   text-align: center;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.colunas-avaliacoes:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
 .nome-avaliador {
@@ -51,6 +58,22 @@
   font-size: 20px;
   text-align: left;
   color: var(--color-dark-700);
+}
+
+.nota-avaliacao i {
+  animation: star-pop 0.8s ease forwards;
+  opacity: 0;
+}
+
+@keyframes star-pop {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
 }
 
 @media (max-width: 768px) {
