@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/icone.png" />
@@ -50,23 +49,61 @@
     </header>
     <main class="container">
       <p class="titulo-contato">CONTATO</p>
+      <p class="subtitulo-contato">
+        Tem alguma dúvida, sugestão ou problema? Fale com a gente 🤔
+      </p>
       <div class="container-contato">
-        <img src="img/modelo.avif" width="400" alt="personagem" class="personagem" />
+        <div class="lado-esquerdo">
+          <img src="img/modelo.avif" alt="personagem" class="personagem" />
+          <p class="fala-personagem">
+            Precisa de ajuda? Me manda uma mensagem!
+          </p>
+        </div>
 
         <form class="formulario">
           <div class="campo">
+            <label class="label-formulario" for="tipo">Tipo de contato</label>
+            <select id="tipo" name="tipo" required class="input-formulario">
+              <option value="">Selecione</option>
+              <option>Dúvida</option>
+              <option>Sugestão</option>
+              <option>Problema</option>
+            </select>
+          </div>
+
+          <div class="campo">
             <label class="label-formulario" for="nome">Nome</label>
-            <input class="input-formulario" type="text" id="nome" required />
+            <input
+              class="input-formulario"
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Seu nome"
+              required
+            />
           </div>
 
           <div class="campo">
             <label class="label-formulario" for="email">Email</label>
-            <input class="input-formulario" type="email" id="email" required />
+            <input
+              class="input-formulario"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seuemail@email.com"
+              required
+            />
           </div>
 
           <div class="campo">
             <label class="label-formulario" for="mensagem">Mensagem</label>
-            <textarea class="input-formulario textarea-formulario" id="mensagem" required></textarea>
+            <textarea
+              class="input-formulario textarea-formulario"
+              id="mensagem"
+              name="mensagem"
+              placeholder="Escreva sua mensagem aqui..."
+              required
+            ></textarea>
           </div>
 
           <button type="submit" class="botao-formulario">ENVIAR</button>
@@ -83,6 +120,6 @@
         <i class="ph ph-facebook-logo"></i>
       </div>
     </footer>
+    <script type="module" src="js/main.js"></script>
   </body>
-  <script type="module" src="js/main.js"></script>
 </html>
