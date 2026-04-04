@@ -1,0 +1,129 @@
+body.darkmode {
+  --color-dark-900: #fdf7ff;
+  --color-dark-800: #f2e9fb;
+  --color-dark-700: #e3d8f2;
+  --color-dark-600: #d0c3e6;
+  --color-dark-500: #ad9bc8;
+  --color-dark-400: #8e79ae;
+  --color-dark-300: #705f92;
+  --color-dark-200: #544775;
+  --color-dark-100: #f6f7ff;
+
+  --color-purple-100: #2c2140;
+  --color-purple-200: #3a2b52;
+  --color-purple-300: #544074;
+  --color-purple-400: #6b5194;
+
+  --color-blue-100: #2a2942;
+  --color-blue-200: #333357;
+  --color-blue-300: #444473;
+
+  --color-pink-100: #4d355f;
+  --color-pink-200: #6c4a7f;
+  --color-pink-300: #ff6fd8;
+  --color-pink-400: #ff4fd1;
+  --color-pink-500: #ff22c8;
+
+  color: var(--color-dark-900);
+  background: linear-gradient(135deg, #3a2b52, #6b5194 48%, #7b2965 100%);
+}
+
+body.darkmode .header,
+body.darkmode .footer {
+  background-color: rgba(47, 34, 70, 0.82);
+  border-color: rgba(246, 247, 255, 0.08);
+}
+
+body.darkmode .header-nav {
+  background-color: var(--color-purple-400);
+  border-top-color: rgba(246, 247, 255, 0.1);
+}
+
+body.darkmode .grid,
+body.darkmode .colunas,
+body.darkmode .historia-jogo,
+body.darkmode .personagem-jogo,
+body.darkmode .pergunta,
+body.darkmode .resposta,
+body.darkmode .container-contato,
+body.darkmode .colunas-avaliacoes {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+}
+
+body.darkmode .container-contato,
+body.darkmode .colunas-avaliacoes {
+  background-color: var(--color-purple-100);
+}
+
+body.darkmode .grid,
+body.darkmode .colunas,
+body.darkmode .pergunta,
+body.darkmode .resposta,
+body.darkmode .container-contato,
+body.darkmode .colunas-avaliacoes {
+  border: 1px solid rgba(255, 34, 200, 0.12);
+}
+
+body.darkmode .motivos-home,
+body.darkmode .btn-aventura,
+body.darkmode .btn-historia,
+body.darkmode .btn-personagem,
+body.darkmode .botao-formulario {
+  box-shadow: 0 0 18px rgba(255, 34, 200, 0.18);
+}
+
+body.darkmode .input-formulario {
+  color: var(--color-dark-900);
+  background-color: #2c2340;
+  border-color: var(--color-purple-300);
+}
+
+body.darkmode .input-formulario:focus {
+  background-color: var(--color-pink-200);
+}
+
+body.darkmode .header-link,
+body.darkmode .footer-texto,
+body.darkmode .footer-redes,
+body.darkmode .label-formulario,
+body.darkmode .nome-avaliador,
+body.darkmode .comentario-avaliacao,
+body.darkmode .paragrafo,
+body.darkmode .propaganda,
+body.darkmode .titulo-jogo,
+body.darkmode .paragrafo-historia,
+body.darkmode .paragrafo-personagem {
+  color: var(--color-dark-800);
+}
+
+#tema {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--color-pink-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tema i {
+  color: var(--color-white);
+  font-size: 20px;
+}
+
+#tema .ph-moon {
+  display: block;
+}
+
+#tema .ph-sun {
+  display: none;
+}
+
+body.darkmode #tema .ph-moon {
+  display: none;
+}
+
+body.darkmode #tema .ph-sun {
+  display: block;
+}
