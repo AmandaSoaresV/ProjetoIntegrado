@@ -29,3 +29,22 @@
 .footer-redes i:hover {
   color: var(--color-dark-500);
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 16px 12px;
+       background-color: var(--color-blue-100);
+  }
+
+  .footer-texto {
+    font-size: 18px;
+  }
+
+  .footer-redes {
+    gap: 12px;
+  }
+
+  .footer-redes i {
+    font-size: 18px;
+  }
+}
