@@ -4,3 +4,8 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+main,
+footer {
+  filter: blur(5px);
+}
