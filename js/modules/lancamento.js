@@ -2,6 +2,9 @@ import Swal from "https://cdn.jsdelivr.net/npm/sweetalert2@11/+esm";
 
 // verifica se está na index.html
 if (window.location.pathname.includes("index.html") || window.location.pathname === "/") {
+  const alertaJaMostrado = localStorage.getItem("alertaMostrado");
+
+  if (!alertaJaMostrado) {
 
   const anoLancamento = 2026;
   const anoAtual = new Date().getFullYear();
@@ -27,4 +30,6 @@ if (window.location.pathname.includes("index.html") || window.location.pathname 
     });
   }
 
+    localStorage.setItem("alertaMostrado", "true");
+  }
 }
