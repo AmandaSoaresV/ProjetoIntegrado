@@ -5,11 +5,18 @@ if (formulario) {
   formulario.addEventListener("submit", (event) => {
     event.preventDefault();
     const nome = document.getElementById("nome").value;
-     Swal.fire({
+    Swal.fire({
       title: "Formulário Enviado!",
-      text: "Obrigada por entrar em contato, " + nome + "! Em breve responderemos sua mensagem.",
+      text:
+        "Obrigada por entrar em contato, " +
+        nome +
+        "! Em breve responderemos sua mensagem.",
       icon: "success",
       confirmButtonText: "OK",
+      customClass: {
+        popup: "minha-fonte",
+        confirmButton: "meu-botao",
+      },
     });
     formulario.reset();
   });

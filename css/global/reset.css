@@ -9,3 +9,20 @@ main,
 footer {
   filter: blur(5px);
 }
+
+.minha-fonte {
+  font-family: 'VT323', monospace;
+  color: var(--color-pink-400);
+}
+
+.meu-botao {
+  background: var(--color-pink-500);
+  color: var(--color-white);
+  border: none;
+  padding: 10px 20px;
+}
+
+.meu-botao:hover {
+  background: var(--color-pink-300);
+  color: var(--color-white);
+}
