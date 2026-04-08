@@ -35,8 +35,31 @@ body.darkmode .footer {
 }
 
 body.darkmode .header-nav {
-  background-color: var(--color-purple-400);
-  border-top-color: rgba(246, 247, 255, 0.1);
+  background: linear-gradient(
+    90deg,
+    var(--color-purple-100),
+    var(--color-purple-200)
+  );
+  border-radius: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+body.darkmode .header-link {
+  color: var(--color-dark-800);
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.25s;
+}
+
+body.darkmode .header-link:hover {
+  color: var(--color-dark-100);
+  background: linear-gradient(
+    135deg,
+    var(--color-pink-300),
+    var(--color-pink-500)
+  );
+  box-shadow: 0 4px 12px rgba(255, 34, 200, 0.4);
 }
 
 body.darkmode .grid,
@@ -64,7 +87,6 @@ body.darkmode .colunas-avaliacoes {
   border: 1px solid rgba(255, 34, 200, 0.12);
 }
 
-body.darkmode .motivos-home,
 body.darkmode .btn-aventura,
 body.darkmode .btn-historia,
 body.darkmode .btn-personagem,
@@ -72,9 +94,13 @@ body.darkmode .botao-formulario {
   box-shadow: 0 0 18px rgba(255, 34, 200, 0.18);
 }
 
+body.darkmode #tema i:hover {
+  color: var(--color-white);
+}
+
 body.darkmode .input-formulario {
   color: var(--color-dark-900);
-  background-color: #2c2340;
+  background-color: var(--color-pink-100);
   border-color: var(--color-purple-300);
 }
 
@@ -90,10 +116,32 @@ body.darkmode .nome-avaliador,
 body.darkmode .comentario-avaliacao,
 body.darkmode .paragrafo,
 body.darkmode .propaganda,
-body.darkmode .titulo-jogo,
 body.darkmode .paragrafo-historia,
 body.darkmode .paragrafo-personagem {
   color: var(--color-dark-800);
+}
+
+body.darkmode .pergunta-motivo{
+  color: var(--color-pink-400);
+}
+
+body.darkmode h1,
+body.darkmode h2,
+body.darkmode h3,
+body.darkmode h4,
+body.darkmode h5,
+body.darkmode h6,
+body.darkmode .titulo-home,
+body.darkmode .titulo-contato,
+body.darkmode .titulo-avaliacoes,
+body.darkmode .titulo-perguntas,
+body.darkmode .titulo-jogar,
+body.darkmode .titulo-sobre,
+body.darkmode .titulo-jogo,
+body.darkmode .titulo-historia,
+body.darkmode .titulo-ficha,
+body.darkmode .titulo-personagem {
+  color: var(--color-pink-500);
 }
 
 #tema {
@@ -101,7 +149,7 @@ body.darkmode .paragrafo-personagem {
   width: 50px;
   padding: 0;
   border-radius: 50%;
-  background-color: var(--color-pink-300);
+  background-color: var(--color-pink-400);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,12 +157,16 @@ body.darkmode .paragrafo-personagem {
 }
 
 #tema:hover {
-  background-color: var(--color-pink-400);
+  background-color: var(--color-pink-300);
 }
 
 #tema i {
   color: var(--color-white);
   font-size: 20px;
+}
+
+#tema i:hover {
+  color: var(--color-pink-400);
 }
 
 #tema .ph-moon {
