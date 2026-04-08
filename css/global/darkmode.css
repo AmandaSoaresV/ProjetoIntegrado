@@ -105,6 +105,11 @@ body.darkmode .paragrafo-personagem {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
+}
+
+#tema:hover {
+  background-color: var(--color-pink-400);
 }
 
 #tema i {

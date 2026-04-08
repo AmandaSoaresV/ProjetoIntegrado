@@ -1,7 +1,8 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: 16px;
   padding: 10px;
   background-color: rgba(233, 247, 254, 0.2);
   height: 104px;
@@ -12,12 +13,17 @@
 }
 
 .header-logo {
-  width: 150px;
+  width: 220px;
 }
 
 .header-menu {
   display: flex;
+  align-items: center;
   gap: 20px;
+}
+
+.header-nav {
+  margin-left: auto;
 }
 
 .header-item {
@@ -28,10 +34,28 @@
   color: var(--color-dark-900);
   font-size: 28px;
   padding: 10px;
+  display: flex;
+  align-items: center;
   font-family: "VT323", cursive;
   transition: color 0.3s;
 }
 
 .header-link:hover {
   color: var(--color-dark-500);
+}
+
+.jogar {
+  background-color: var(--color-pink-300);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 26px;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  transition: all 0.3s ease;
+}
+
+.jogar:hover {
+  background-color: var(--color-pink-400);
 }

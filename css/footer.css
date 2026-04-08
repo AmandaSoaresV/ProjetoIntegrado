@@ -5,6 +5,7 @@
   width: 100%;
   margin-top: 40px;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-top:  2px solid var(--color-purple-400);;
 }
 
 .footer-texto {
