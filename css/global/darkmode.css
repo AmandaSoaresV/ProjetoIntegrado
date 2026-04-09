@@ -117,12 +117,36 @@ body.darkmode .comentario-avaliacao,
 body.darkmode .paragrafo,
 body.darkmode .propaganda,
 body.darkmode .paragrafo-historia,
-body.darkmode .paragrafo-personagem {
+body.darkmode .paragrafo-personagem,
+body.darkmode .titulo-info-jogar,
+body.darkmode .lista-jogar-controles li,
+body.darkmode .texto-jogar-alerta,
+body.darkmode .legenda-jogo {
   color: var(--color-dark-800);
 }
-
-body.darkmode .pergunta-motivo{
+body.darkmode .titulo-info-jogar{
   color: var(--color-pink-400);
+}
+body.darkmode .tecla-jogar{
+  background: var(--color-pink-300);
+  color: var(--color-dark-900);
+}
+
+body.darkmode .pergunta-motivo {
+  color: var(--color-pink-400);
+}
+
+body.darkmode .secao-jogar,
+body.darkmode .bloco-jogar,
+body.darkmode .moldura-jogo-jogar {
+  background: rgba(47, 34, 70, 0.7);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+body.darkmode .bloco-jogar {
+  background: transparent;
+  border-top-color: rgba(255, 255, 255, 0.08);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
 }
 
 body.darkmode h1,

@@ -7,10 +7,134 @@
   min-height: 100vh;
 }
 
+.main-jogar {
+  width: 100%;
+  max-width: 980px;
+  padding: 32px 12px 48px;
+  margin: 0 auto;
+}
+
+.secao-jogar {
+  display: grid;
+  gap: 20px;
+  padding: 24px;
+  background: var(--color-white);
+  border-radius: 18px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
 .titulo-jogar {
-  color: var(--color-dark-100);
-  font-size: 40px;
+  color: var(--color-dark-700);
   font-family: "Press Start 2P", cursive;
-  margin-top: 40px;
+  font-size: 40px;
   text-align: center;
+}
+
+.quadro-jogar {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.bloco-jogar {
+  padding: 20px;
+  background: transparent;
+  border-top: 1px solid rgba(74, 74, 102, 0.14);
+  border-bottom: 1px solid rgba(74, 74, 102, 0.14);
+  border-radius: 0;
+}
+
+.bloco-jogar-alerta {
+  background: transparent;
+}
+
+.titulo-info-jogar {
+  margin-bottom: 10px;
+  color: var(--color-dark-700);
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.lista-jogar-controles {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lista-jogar-controles li,
+.texto-jogar-alerta,
+.legenda-jogo {
+  color: var(--color-dark-600);
+  font-family: "VT323", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.tecla-jogar {
+  display: inline-block;
+  padding: 2px 8px;
+  margin-right: 4px;
+  border-radius: 8px;
+  background: var(--color-purple-200);
+  color: var(--color-dark-700);
+  font-family: "VT323", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.area-jogo-jogar {
+  display: grid;
+  gap: 10px;
+}
+
+.moldura-jogo-jogar {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(74, 74, 102, 0.12);
+  border-radius: 16px;
+}
+
+.iframe-jogo {
+  display: block;
+  width: 100%;
+  min-height: 680px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--color-purple-100);
+}
+
+.legenda-jogo {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .main-jogar {
+    padding: 20px 12px 44px;
+  }
+
+  .secao-jogar {
+    padding: 18px;
+    border-radius: 16px;
+  }
+
+  .quadro-jogar {
+    grid-template-columns: 1fr;
+  }
+
+  .bloco-jogar {
+    padding: 16px;
+  }
+
+  .lista-jogar-controles li,
+  .texto-jogar-alerta,
+  .legenda-jogo {
+    font-size: 20px;
+  }
+
+  .iframe-jogo {
+    min-height: 420px;
+  }
 }
