@@ -28,32 +28,70 @@
           <li class="header-item">
             <a class="header-link" href="index.html">Home</a>
           </li>
+
           <li class="header-item">
             <a class="header-link" href="sobre.html">Sobre</a>
           </li>
+
           <li class="header-item">
             <a class="header-link" href="perguntas.html">Perguntas</a>
           </li>
+
           <li class="header-item">
             <a class="header-link" href="avaliacoes.html">Avaliações</a>
           </li>
+
           <li class="header-item">
             <a class="header-link" href="contato.html">Contato</a>
           </li>
+
           <li class="header-item">
             <a class="header-link jogar" href="jogar.html">Jogar</a>
           </li>
-          <li class="header-item">
-            <button id="tema">
-              <i class="ph ph-moon"></i>
-              <i class="ph ph-sun"></i>
-            </button>
-          </li>
         </ul>
       </nav>
+      <button id="tema">
+        <i class="ph ph-moon"></i>
+        <i class="ph ph-sun"></i>
+      </button>
     </header>
     <main class="main-jogar">
-      <p class="titulo-jogar">JOGAR</p>
+      <section class="secao-jogar">
+        <p class="titulo-jogar">JOGAR</p>
+
+        <div class="quadro-jogar">
+          <article class="bloco-jogar bloco-jogar-instrucoes">
+            <p class="titulo-info-jogar">Como jogar</p>
+            <ul class="lista-jogar-controles">
+              <li><span class="tecla-jogar">↑</span> pular</li>
+              <li><span class="tecla-jogar">←</span> andar para a esquerda</li>
+              <li><span class="tecla-jogar">→</span> andar para a direita</li>
+              <li><span class="tecla-jogar">Espaço</span> ação de ataque</li>
+            </ul>
+          </article>
+
+          <article class="bloco-jogar bloco-jogar-alerta">
+            <p class="titulo-info-jogar">Atenção</p>
+            <p class="texto-jogar-alerta">
+              Evite encostar no vilão, fuja do perigoso mar de chocolate e
+              cuidado com os espinhos! Um erro pode custar sua vitória.
+            </p>
+          </article>
+        </div>
+
+        <div class="area-jogo-jogar">
+          <div class="moldura-jogo-jogar">
+            <iframe
+              class="iframe-jogo"
+              title="Jogo integrado"
+              src="/"
+            ></iframe>
+          </div>
+          <p class="legenda-jogo">
+            O jogo aparecerá aqui. Prepare-se para começar a aventura!
+          </p>
+        </div>
+      </section>
     </main>
     <script type="module" src="js/main.js"></script>
   </body>
