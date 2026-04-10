@@ -18,7 +18,7 @@
   display: grid;
   gap: 20px;
   padding: 24px;
-  background: var(--color-white);
+  background: var(--color-purple-100);
   border-radius: 18px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
 }
@@ -92,7 +92,7 @@
 
 .moldura-jogo-jogar {
   padding: 12px;
-  background: rgba(255, 255, 255, 0.7);
+  background-color: var(--color-purple-200);
   border: 1px solid rgba(74, 74, 102, 0.12);
   border-radius: 16px;
 }

@@ -27,7 +27,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  background-color: white;
+  background-color: var(--color-purple-100);
   min-height: 540px;
   padding: 40px 64px 40px 64px;
   border-radius: 18px;

@@ -35,7 +35,7 @@ html {
   width: 570px;
   min-height: 340px;
   padding: 20px;
-  background-color: var(--color-blue-100);
+  background-color: var(--color-purple-100);
   border-radius: 18px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
 }
