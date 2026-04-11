@@ -63,7 +63,10 @@
           <article class="bloco-jogar bloco-jogar-instrucoes">
             <p class="titulo-info-jogar">Como jogar</p>
             <ul class="lista-jogar-controles">
-              <li><span class="tecla-jogar">↑</span> pular</li>
+              <li>
+                <span class="tecla-jogar">↑</span>
+                pular (1x: pulo normal / 2x: pulo duplo)
+              </li>
               <li><span class="tecla-jogar">←</span> andar para a esquerda</li>
               <li><span class="tecla-jogar">→</span> andar para a direita</li>
               <li><span class="tecla-jogar">Espaço</span> ação de ataque</li>
@@ -83,15 +86,15 @@
           <div class="moldura-jogo-jogar">
             <iframe
               class="iframe-jogo"
-              title="Jogo integrado"
-              src="game/index.html"
+              tabindex="0"
+              title="Jogo Candy Factory Adventure"
+              src="JOGO/index.html"
             ></iframe>
-            <p>
-              Se o jogo não carregar, clique
-              <a href="game/index.html" target="_blank" class="link-jogo">
-                aqui
-              </a>
-              para jogar em uma nova aba.
+            <p class="abrir-jogo">
+              Abrir o jogo em uma nova aba? Clique
+              <a href="JOGO/index.html" target="_blank" class="link-jogo"
+                >aqui</a
+              >
             </p>
           </div>
           <p class="legenda-jogo">
@@ -111,6 +114,7 @@
         <i class="ph ph-facebook-logo"></i>
       </div>
     </footer>
+
     <script type="module" src="js/main.js"></script>
   </body>
 </html>

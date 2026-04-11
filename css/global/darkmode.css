@@ -124,15 +124,19 @@ body.darkmode .texto-jogar-alerta,
 body.darkmode .legenda-jogo {
   color: var(--color-dark-800);
 }
-body.darkmode .titulo-info-jogar{
+body.darkmode .titulo-info-jogar {
   color: var(--color-pink-400);
 }
-body.darkmode .tecla-jogar{
+body.darkmode .tecla-jogar {
   background: var(--color-pink-300);
   color: var(--color-dark-900);
 }
 
 body.darkmode .pergunta-motivo {
+  color: var(--color-pink-400);
+}
+
+body.darkmode .link-jogo {
   color: var(--color-pink-400);
 }
 

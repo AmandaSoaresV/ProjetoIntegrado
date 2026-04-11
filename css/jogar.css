@@ -109,6 +109,33 @@
   text-align: center;
 }
 
+.abrir-jogo {
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: var(--color-purple-100);
+  border: 1px solid rgba(74, 74, 102, 0.12);
+  border-radius: 12px;
+  text-align: center;
+  color: var(--color-dark-600);
+  font-family: "VT323", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.link-jogo {
+  color: var(--color-dark-700);
+  font-weight: bold;
+  text-decoration: none;
+  background: var(--color-purple-200);
+  padding: 2px 8px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.link-jogo:hover {
+  background: var(--color-purple-300);
+  transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
   .main-jogar {
     padding: 24px 16px 48px;

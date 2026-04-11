@@ -29,6 +29,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Acts.ResetEventVar,
 		C3.Plugins.System.Acts.GoToLayoutByName,
+		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.Sprite.Cnds.CompareInstanceVar,
 		C3.Behaviors.Flash.Acts.Flash,
 		C3.Plugins.Sprite.Acts.SetInstanceVar,
@@ -40,6 +41,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform.Cnds.IsJumping,
 		C3.Behaviors.Platform.Cnds.IsOnFloor,
 		C3.Behaviors.Platform.Cnds.IsMoving,
+		C3.Plugins.Keyboard.Cnds.IsKeyDown,
 		C3.Plugins.Sprite.Acts.SetMirrored,
 		C3.Plugins.Sprite.Cnds.OnCollision,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
@@ -103,7 +105,8 @@ self.C3_JsPropNameTable = [
 	{fundoIncioJogo: 0},
 	{SpawnJogadora: 0},
 	{NumerodaFase: 0},
-	{MensagemMorte: 0}
+	{MensagemMorte: 0},
+	{passouFase: 0}
 ];
 
 self.InstanceType = {

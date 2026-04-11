@@ -1394,7 +1394,7 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => ("" + v0.GetValue());
 		},
-		() => 2,
+		() => 3,
 		() => "Fase_1",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1413,6 +1413,7 @@ self.C3_ExpressionFuncs = [
 		() => 30,
 		() => "",
 		() => "morrendo",
+		() => 2,
 		p => {
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject();
