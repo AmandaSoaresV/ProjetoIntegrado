@@ -1,7 +1,7 @@
-# 🍬🍭🍫 Candy Factory Adventure 🍬🍭🍫
-
 ![Status](https://img.shields.io/badge/Status-Concluido-2EA043?style=for-the-badge) ![Licenca](https://img.shields.io/badge/Licenca-MIT-0A66C2?style=for-the-badge) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 <img src="https://img.shields.io/badge/Construct%203-00ADEF?style=for-the-badge" />
+
+# 🍬🍭🍫 Candy Factory Adventure 🍬🍭🍫
 
 Projeto acadêmico desenvolvido no **primeiro módulo** do curso de Engenharia de Software.
 
