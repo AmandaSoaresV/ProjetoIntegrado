@@ -16,7 +16,6 @@ html {
   font-size: 40px;
   color: var(--color-dark-100);
   text-align: center;
-  margin-top: 32px;
 }
 
 .grid-sobre {
@@ -24,7 +23,7 @@ html {
   grid-template-columns: repeat(2, auto);
   justify-content: center;
   gap: 40px;
-  margin: 40px auto;
+  margin: 40px auto 48px auto;
   align-items: stretch;
 }
 
@@ -84,15 +83,13 @@ html {
   font-size: 32px;
   color: var(--color-pink-500);
   text-align: center;
-  padding: 24px;
+  margin-bottom: 40px;
 }
 
 .grid-historia {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-  align-items: center;
-  padding: 0 40px;
+  grid-template-columns: 1fr 500px;
+  gap: 64px;
 }
 
 .paragrafo-historia {
@@ -137,7 +134,6 @@ html {
 
 .ficha-jogo {
   background-color: var(--color-purple-200);
-  width: 90%;
   margin: 60px auto;
   padding: 30px;
   border-radius: 18px;
@@ -188,8 +184,7 @@ html {
 
 .personagem-jogo {
   background-color: var(--color-purple-200);
-  width: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 64px;
 }
 
 .titulo-personagem {
@@ -197,22 +192,21 @@ html {
   font-size: 32px;
   color: var(--color-pink-500);
   text-align: center;
-  padding: 24px;
+  margin-bottom: 48px;
 }
 
 .grid-personagem {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  padding: 0 40px;
+  grid-template-columns: max-content 1fr;
+  gap: 64px;
 }
 
 .candyNanda {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
   margin: 0 auto;
   border-radius: 12px;
+  object-fit: cover;
+  height: 360px;
+  width: 360px;
 }
 
 .paragrafo-personagem {
@@ -221,20 +215,19 @@ html {
   color: var(--color-dark-700);
   text-align: justify;
   line-height: 1.4;
-  max-width: 600px;
   margin: 0 auto;
 }
 
 @media (max-width: 768px) {
   .titulo-sobre {
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: 24px;
+    margin-top: 24px;
   }
 
   .grid-sobre {
     grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 0 20px;
+    gap: 24px;
+    padding: 0 24px;
   }
 
   .colunas {
@@ -243,12 +236,12 @@ html {
 
   .grid-historia {
     grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 0 20px;
+    gap: 24px;
+    padding: 0 24px;
   }
 
   .carrosel-img {
-    height: 300px;
+    height: 304px;
   }
 
   .titulo-jogo {
@@ -257,16 +250,16 @@ html {
 
   .btn-historia,
   .btn-personagem {
-    font-size: 18px;
+    font-size: 16px;
     padding: 8px 16px;
   }
 
   .titulo-historia {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .paragrafo-historia {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .personagem-jogo {
@@ -274,12 +267,12 @@ html {
   }
 
   .titulo-personagem {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .grid-personagem {
     grid-template-columns: 1fr;
-    padding: 0 20px;
+    padding: 0 24px;
   }
 
   .candyNanda {
@@ -288,7 +281,7 @@ html {
   }
 
   .paragrafo-personagem {
-    font-size: 20px;
+    font-size: 24px;
   }
   .grid-ficha {
     grid-template-columns: repeat(2, 1fr);

@@ -7,20 +7,24 @@
   min-height: 100vh;
 }
 
+.main {
+  margin-bottom: 64px;
+}
+
 .titulo-home {
   color: var(--color-dark-100);
   font-size: 40px;
+  line-height: 1.5;
   font-family: "Press Start 2P", cursive;
-  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 60% 40%;
-  gap: 32px;
-  width: 80%;
-  margin: 40px auto;
+  grid-template-columns: 1fr 400px;
+  gap: 48px;
+  padding: 32px;
   background-color: var(--color-purple-100);
   border-radius: 18px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
@@ -30,7 +34,6 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 18px 24px 28px;
 }
 
 .paragrafo {
@@ -73,7 +76,7 @@
 }
 
 .motivos-home img {
-  width:50px;
+  width: 50px;
   height: 50px;
 }
 
@@ -112,7 +115,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.04);
+    transform: scale(0.96);
   }
   100% {
     transform: scale(1);
@@ -124,21 +127,18 @@
 }
 
 .persona {
-  width: 90%;
-  height: auto;
-  max-width: 320px;
-  display: block;
+  border-radius: 8px;
 }
 
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
-    width: 90%;
-    gap: 12px;
+    width: 100%;
+    gap: 16px;
   }
 
   .colunas-home {
-    padding: 12px 16px;
+    padding: 8px 16px;
   }
 
   .colunas-home-persona {
@@ -146,8 +146,8 @@
   }
 
   .titulo-home {
-    font-size: 16px;
-    margin: 20px 0;
+    font-size: 20px;
+    padding: 0 10px;
   }
   .paragrafo {
     font-size: 24px;
@@ -158,29 +158,29 @@
   }
   .container-motivos {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 8px;
     width: 100%;
-    margin-top: 12px;
+    margin-top: 16px;
   }
   .motivos-home {
-    padding: 12px 14px;
+    padding: 8px 16px;
     text-align: center;
     min-height: 72px;
   }
   .motivos-home p {
-    font-size: 16px;
+    font-size: 20px;
   }
   .propaganda {
-    font-size: 18px;
-    padding: 12px;
+    font-size: 20px;
+    padding: 16px;
   }
   .btn-aventura {
-    font-size: 18px;
-    padding: 10px 16px;
+    font-size: 20px;
+    padding: 8px 16px;
   }
   .persona {
     width: 100%;
-    max-width: 260px;
+    max-width: 256px;
     margin: 0 auto;
   }
 }

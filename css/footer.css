@@ -3,9 +3,8 @@
   padding: 20px 16px;
   background-color: rgba(233, 247, 254, 0.2);
   width: 100%;
-  margin-top: 40px;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
-  border-top:  2px solid var(--color-purple-400);;
+  border-top: 2px solid var(--color-purple-400);
 }
 
 .footer-texto {
@@ -33,19 +32,19 @@
 
 @media (max-width: 768px) {
   .footer {
-    padding: 16px 12px;
-       background-color: var(--color-blue-100);
+    padding: 16px;
+    background-color: var(--color-blue-100);
   }
 
   .footer-texto {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .footer-redes {
-    gap: 12px;
+    gap: 16px;
   }
 
   .footer-redes i {
-    font-size: 18px;
+    font-size: 16px;
   }
 }

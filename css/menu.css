@@ -16,7 +16,7 @@
     z-index: 30;
     min-height: 64px;
     height: auto;
-    padding: 8px 12px;
+    padding: 8px 16px;
     background-color: var(--color-blue-100);
     box-shadow: 0 2px 8px rgba(25, 25, 39, 0.08);
   }
@@ -45,14 +45,14 @@
 
   .header-menu {
     flex-direction: column;
-    gap: 2px;
-    padding: 6px 8px;
+    gap: 8px;
+    padding: 8px;
   }
 
   .header-link {
     display: block;
-    font-size: 22px;
-    padding: 6px 8px;
+    font-size: 24px;
+    padding: 8px;
     transition: color 0.2s;
   }
 
